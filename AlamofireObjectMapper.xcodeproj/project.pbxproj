@@ -32,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5790871829E7B0B100AE6CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89A8FF31D6F5F480023C364 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 31293065263E17D600473CEA;
+			remoteInfo = "Alamofire watchOS Tests";
+		};
 		6A20983B219CDEA5009AB4DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E89A900C1D6F5F520023C364 /* ObjectMapper.xcodeproj */;
@@ -311,6 +318,7 @@
 				E89A90071D6F5F480023C364 /* Alamofire.framework */,
 				E89A90091D6F5F480023C364 /* Alamofire tvOS Tests.xctest */,
 				E89A900B1D6F5F480023C364 /* Alamofire.framework */,
+				5790871929E7B0B100AE6CC6 /* Alamofire watchOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -564,6 +572,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5790871929E7B0B100AE6CC6 /* Alamofire watchOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire watchOS Tests.xctest";
+			remoteRef = 5790871829E7B0B100AE6CC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		6A20983C219CDEA5009AB4DF /* libObjectMapper.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -835,7 +850,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -889,7 +904,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
